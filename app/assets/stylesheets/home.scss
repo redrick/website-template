@@ -9,9 +9,6 @@ body, html {
 h2 {
 	margin-top: 0;
 }
-.loading {
-	background: url('ico_loading.gif') no-repeat center center;
-}
 section {
 	opacity: 1;
 	transition: opacity 300ms ease-out;
@@ -34,7 +31,7 @@ main {
 
 /* Slide 1 */
 #slide-1 .bcg {
-  background-image:url('img1.jpg')
+  background-image: asset-url('img1.jpg')
 }
 
 /* Slide 2 */
@@ -84,7 +81,7 @@ main {
     color: red;
   }
   .bcg {
-    background-image:url('img3.jpg');
+    background-image: asset-url('img3.jpg');
     h2 {
       color: red;
     }
