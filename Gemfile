@@ -27,6 +27,9 @@ group :development, :test do
   gem 'byebug'
 
   gem 'thin'
+
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
 end
 
 group :development do
